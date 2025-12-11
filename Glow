@@ -1,0 +1,219 @@
+ <!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8" />  
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+<title>GlowDrink – Refresh & Revitalize</title>  
+<style>  
+    body {  
+        margin: 0;  
+        font-family: 'Helvetica', sans-serif;  
+        background: #f4f4f4;  
+        color: #333;  
+    }  
+  
+    header {  
+        background: linear-gradient(90deg, #ff9900, #ff0066);  
+        padding: 40px;  
+        text-align: center;  
+        color: white;  
+    }  
+  
+    header h1 {  
+        font-size: 3rem;  
+        margin: 0;  
+        letter-spacing: 2px;  
+    }  
+  
+    .hero {  
+        text-align: center;  
+        padding: 40px 20px;  
+        background: white;  
+    }  
+  
+    .hero img {  
+        width: 260px;  
+        height: auto;  
+        filter: drop-shadow(0 0 20px orange);  
+        margin-bottom: 20px;  
+    }  
+  
+    .hero h2 {  
+        font-size: 2rem;  
+        margin-bottom: 10px;  
+        color: #cc0066;  
+    }  
+  
+    .cta-button {  
+        padding: 15px 25px;  
+        background: #ff6600;  
+        color: white;  
+        border: none;  
+        border-radius: 8px;  
+        font-size: 1.2rem;  
+        cursor: pointer;  
+        transition: 0.3s;  
+    }  
+  
+    .cta-button:hover {  
+        background: #cc0044;  
+    }  
+  
+    .section {  
+        padding: 40px 20px;  
+        max-width: 1100px;  
+        margin: auto;  
+    }  
+  
+    h3 {  
+        color: #cc0066;  
+        font-size: 1.8rem;  
+        margin-bottom: 20px;  
+    }  
+  
+    .flavors {  
+        display: flex;  
+        gap: 20px;  
+        flex-wrap: wrap;  
+        justify-content: center;  
+    }  
+  
+    .flavor-card {  
+        background: white;  
+        padding: 20px;  
+        border-radius: 10px;  
+        width: 250px;  
+        text-align: center;  
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+    }  
+  
+    .flavor-card img {  
+        width: 100%;  
+        border-radius: 10px;  
+        height: 180px;  
+        object-fit: cover;  
+    }  
+  
+    table {  
+        width: 100%;  
+        border-collapse: collapse;  
+        margin-top: 20px;  
+        background: white;  
+        border-radius: 10px;  
+        overflow: hidden;  
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+    }  
+  
+    th, td {  
+        padding: 15px;  
+        border-bottom: 1px solid #eee;  
+        text-align: left;  
+    }  
+  
+    th {  
+        background: #ff9900;  
+        color: white;  
+    }  
+  
+    footer {  
+        text-align: center;  
+        padding: 30px;  
+        background: #222;  
+        color: white;  
+    }  
+</style>  
+</head>  
+<body>  
+  
+<header>  
+    <h1>GlowDrink</h1>  
+    <p>REFRESH • REVITALIZE • SUPER MAX ENERGY</p>  
+</header>  
+  
+<section class="hero">  
+    <img src="GLOWDRINK.png" alt="GlowDrink Bottle" />  
+    <h2>Experience the Future of Energy</h2>  
+    <p>A vibrant, glowing blend of vitamins, minerals, and ultra-clean energy.</p>  
+    <button class="cta-button">BUY NOW</button>  
+</section>  
+  
+<section class="section">  
+    <h3>✨ Available Flavors</h3>  
+    <div class="flavors">  
+        <div class="flavor-card">  
+            <img src="https://picsum.photos/300/200?orange" alt="Citrus Nova" />  
+            <h4>Citrus Nova</h4>  
+            <p>A bright burst of glowing citrus flavors.</p>  
+        </div>  
+        <div class="flavor-card">  
+            <img src="https://picsum.photos/300/200?berry" alt="Cosmic Berry" />  
+            <h4>Cosmic Berry</h4>  
+            <p>Dark berries infused with neon sparkle.</p>  
+        </div>  
+        <div class="flavor-card">  
+            <img src="https://picsum.photos/300/200?tropical" alt="Tropical Radiance" />  
+            <h4>Tropical Radiance</h4>  
+            <p>A glowing mix of mango, pineapple & solar peach.</p>  
+        </div>  
+        <div class="flavor-card">  
+            <img src="https://picsum.photos/300/200?green" alt="Quantum Lime" />  
+            <h4>Quantum Lime</h4>  
+            <p>A tangy green infusion with quantum-charged zest.</p>  
+        </div>  
+    </div>  
+</section>  
+  
+<section class="section">  
+    <h3>📊 Nutrition Facts</h3>  
+    <table>  
+        <tr>  
+            <th>Nutrient</th>  
+            <th>Amount per 12oz</th>  
+        </tr>  
+        <tr>  
+            <td>Calories</td>  
+            <td>60</td>  
+        </tr>  
+        <tr>  
+            <td>Sugar</td>  
+            <td>12g</td>  
+        </tr>  
+        <tr>  
+            <td>Vitamin B12</td>  
+            <td>180% DV</td>  
+        </tr>  
+        <tr>  
+            <td>Vitamin C</td>  
+            <td>110% DV</td>  
+        </tr>  
+        <tr>  
+            <td>Electrolytes</td>  
+            <td>360mg</td>  
+        </tr>  
+        <tr>  
+            <td>GlowCharge™ Energy Matrix</td>  
+            <td>220mg</td>  
+        </tr>  
+        <tr>  
+            <td>Caffeine</td>  
+            <td>85mg</td>  
+        </tr>  
+    </table>  
+</section>  
+  
+<section class="section">  
+    <h3>🧪 What Makes GlowDrink Unique?</h3>  
+    <p>  
+        GlowDrink uses our patented <strong>GlowCharge™ bio-luminescent electrolyte system</strong> that helps your body absorb hydration and energy more efficiently without the crash of traditional energy drinks.  
+    </p>  
+    <p>  
+        Each bottle is crafted with real fruit extracts, low sugar, and enhanced vitamins to give you a clean boost whenever you need it most. Whether you're training, studying, gaming, or pushing through a long day, GlowDrink keeps your mind sharp and your body energized.  
+    </p>  
+</section>  
+  
+<footer>  
+    &copy; 2025 GlowDrink Co. • All Rights Reserved  
+</footer>  
+  
+</body>  
+</html>  
